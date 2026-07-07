@@ -16,7 +16,7 @@ public class DesktopAutomation {
 	  
 	  s.click("D:\\LIB\\Sikuli\\W.PNG");
 	  
-	  s.type(null, null)
+	 // s.type(null, null)
 	  
   }
 }
