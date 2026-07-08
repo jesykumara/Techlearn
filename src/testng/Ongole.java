@@ -1,8 +1,9 @@
 package testng;
 
-import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 public class Ongole {
 	WebDriver driver;
@@ -11,6 +12,9 @@ public class Ongole {
   }
   @BeforeTest
   public void beforeTest() {
+	  
+	  driver = new ChromeDriver();
+	  driver.manage().window().maximize();  
   }
 
 }
