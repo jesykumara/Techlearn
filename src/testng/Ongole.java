@@ -9,6 +9,8 @@ public class Ongole {
 	WebDriver driver;
   @Test
   public void facebook() {
+	  driver.get("www.facebook.com");
+	  
   }
   @BeforeTest
   public void beforeTest() {
