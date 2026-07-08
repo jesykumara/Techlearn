@@ -9,12 +9,10 @@ public class Ongole {
 	WebDriver driver;
   @Test
   public void facebook() {
-	  driver.get("www.facebook.com");
-	  
+	  driver.get("https://www.facebook.com");	  
   }
   @BeforeTest
-  public void beforeTest() {
-	  
+  public void beforeTest() {  
 	  driver = new ChromeDriver();
 	  driver.manage().window().maximize();  
   }
