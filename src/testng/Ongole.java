@@ -8,8 +8,8 @@ import org.testng.annotations.Test;
 public class Ongole {
 	WebDriver driver;
   @Test
-  public void facebook() {
-	  driver.get("https://www.facebook.com");	  
+  public void google() {
+	  driver.get("https://www.google.com");	  
   }
   @BeforeTest
   public void beforeTest() {  
