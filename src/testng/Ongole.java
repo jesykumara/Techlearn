@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeTest;
 public class Ongole {
 	WebDriver driver;
   @Test
-  public void google() {
+  public void facebook() {
   }
   @BeforeTest
   public void beforeTest() {
